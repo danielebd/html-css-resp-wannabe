@@ -138,3 +138,44 @@ img {
         padding: 0;
     }
 }
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+    .row {
+        display: block;
+    }
+    .lessons .col, .steps .col {
+        width: 100%;
+        padding: 45px 0;
+    }
+    h2 {
+        margin-bottom: 0px;
+    }
+    .why-us {
+        background-color: #222222;
+        padding-top: 55px;
+        margin-bottom: 0;
+    }
+    .steps {
+        margin-bottom: 0;
+    }
+    .why-us .col-left, .why-us .col-right {
+        width: 100%;
+    }
+    .col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .why-us .col-left {
+        padding: 45px 0;
+    }
+    .why-us li {
+        margin-bottom: 0;
+        padding-bottom: 2.5rem;
+    }
+    ul {
+        padding: 35px 0;
+    }
+}
